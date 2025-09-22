@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cards de Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Produtos</h1>
+  <div id="cards-container"></div>
+  <script>
+    fetch('data.json')
+      .then(res => res.json())
+      .then(produtos => {
+        const container = document.getElementById('cards-container');
+        produtos.forEach(prod => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `<h3>${prod.nome}</h3><p>${prod.descricao}</p><p>${prod.preco}</p>`;
+          container.appendChild(card);
+        });
+      });
+  </script>
+</body>
+</html>
