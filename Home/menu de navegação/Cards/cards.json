@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Camisa Jogadeira Coritiba",
+    "description": "Descrição legal do card número 1.",
+    "image": "../images/camisa-jogadeira.png",
+    "link": "https://exemplo.com/card1"
+  },
+  {
+    "title": "Camisa Imperio Alviverde",
+    "description": "Descrição legal do card número 2.",
+    "image": "../images/camisa-imperio-alviverde.webp",
+    "link": "https://exemplo.com/card2"
+  },
+  {
+    "title": "Camisa Outubro Rosa",
+    "description": "Descrição legal do card número 3.",
+    "image": "../images/camisa-outubro-rosa.png",
+    "link": "https://exemplo.com/card3"
+  }
+]
