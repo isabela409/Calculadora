@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Card 1",
+    "description": "Descrição legal do card número 1.",
+    "image": "imagens/card1.jpg",
+    "link": "https://exemplo.com/card1"
+  },
+  {
+    "title": "Card 2",
+    "description": "Descrição legal do card número 2.",
+    "image": "imagens/card2.jpg",
+    "link": "https://exemplo.com/card2"
+  },
+  {
+    "title": "Card 3",
+    "description": "Descrição legal do card número 3.",
+    "image": "imagens/card3.jpg",
+    "link": "https://exemplo.com/card3"
+  }
+]
