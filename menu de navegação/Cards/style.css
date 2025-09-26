@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+  color: #ffffff;
+  background-image: url('/Home/menu de navegação/images/bg-green-hell.jpg');
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.card {
+  background: rgb(65, 64, 64);
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  height: 300px;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin: 0 0 10px;
+}
+
+.card p {
+  flex-grow: 1;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.card a {
+  align-self: flex-start;
+  text-decoration: none;
+  background-color: #00bfa5;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+  background-color: #008e76;
+}
+
+

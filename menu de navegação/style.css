@@ -1,0 +1,83 @@
+/* Navbar estilizada */
+.navbar {
+  background: linear-gradient(90deg, #00695c, #004d40);
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 25px; /* espaçamento moderno */
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  color: #e0f2f1;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 
+    color 0.3s ease, 
+    background-color 0.3s ease, 
+    transform 0.2s ease;
+  display: inline-block;
+}
+
+/* Hover com fundo e leve movimento */
+.navbar a:hover,
+.navbar a:focus {
+  color: #004d40;
+  background-color: #00bfa5;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,191,165,0.4);
+  outline: none;
+}
+
+/* Pequeno efeito underline animado */
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 0%;
+  height: 3px;
+  background-color: #00bfa5;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after,
+.navbar a:focus::after {
+  width: 100%;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar a {
+    font-size: 20px;
+  }
+}
+     .card img {
+       width: 100%;
+       height: auto;
+       max-width: 300px;
+       display: block; /* Evita quebras de layout */
+     }
+     

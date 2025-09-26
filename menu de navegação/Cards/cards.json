@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Camiseta Oficial de jogo Coritiba",
+    "description": "$459,90",
+    "image": "../images/camisa-jogadeira.png",
+    "link": "https://exemplo.com/card1"
+  },
+  {
+    "title": "Camisa Torcida Organizada Imperio Alviverde",
+    "description": "$70,00",
+    "image": "../images/camisa-imperio-alviverde.webp",
+    "link": "https://exemplo.com/card2"
+  },
+  {
+    "title": "Camisa em homenagem ao Outubro Rosa",
+    "description": "$299,90",
+    "image": "../images/camisa-outubro-rosa.png",
+    "link": "https://exemplo.com/card3"
+  }
+]
